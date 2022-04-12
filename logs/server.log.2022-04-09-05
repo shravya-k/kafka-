@@ -1,0 +1,16 @@
+[2022-04-09 07:17:59,636] WARN Client session timed out, have not heard from server in 15753ms for session id 0x1001fc47a070001 (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:17:59,686] WARN Session 0x1001fc47a070001 for sever localhost/127.0.0.1:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 15753ms for session id 0x1001fc47a070001
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1258)
+[2022-04-09 07:18:01,642] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:18:01,643] INFO SASL config status: Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:18:01,645] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:50991, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:18:01,660] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, session id = 0x1001fc47a070001, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:52:42,416] WARN Client session timed out, have not heard from server in 14934ms for session id 0x1001fc47a070001 (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:52:42,462] WARN Session 0x1001fc47a070001 for sever localhost/[0:0:0:0:0:0:0:1]:2181, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. (org.apache.zookeeper.ClientCnxn)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 14934ms for session id 0x1001fc47a070001
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1258)
+[2022-04-09 07:52:45,991] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:52:45,992] INFO SASL config status: Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:52:45,994] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:51051, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2022-04-09 07:52:46,015] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, session id = 0x1001fc47a070001, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
